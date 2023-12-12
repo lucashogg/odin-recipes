@@ -3,34 +3,39 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>Odin Recipes</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <h1 class="title">Odin Recipes</h1>
     </header>
-    <main>
-        <div class="recipe">
-            <a href="recipes/white-chicken-chili.html">
-                <img src="images/white-chicken-chili.jpg" alt="White chicken chili">
-            </a>
-            <a href="recipes/white-chicken-chili.html">White Chicken Chili</a>
-        </div>
-        <div class="recipe">
-            <a href="recipes/five-ingredient-pasta.html">
-                <img src="images/five-ingredient-pasta.jpg" alt="Five ingredient pasta">
-            </a>
-            <a href="recipes/five-ingredient-pasta.html">Five Ingredient Pasta</a>
-        </div>
-        <div class="recipe">
-            <a href="recipes/tater-tot-hotdish.html">
-                <img src="images/tater-tot-hotdish.jpg" alt="Tater tot hotdish">
-            </a>
-            <a href="recipes/tater-tot-hotdish.html">Tater Tot Hotdish</a>
+    <main class="main">
+        <div class="container">
+            <div class="recipes">
+                <div class="item">
+                    <a href="recipes/white-chicken-chili.html">
+                        <img class="item-img" src="images/white-chicken-chili.jpg" alt="White chicken chili">
+                        <p class="item-title">White Chicken Chili</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="recipes/five-ingredient-pasta.html">
+                        <img class="item-img" src="images/five-ingredient-pasta.jpg" alt="Five ingredient pasta">
+                        <p class="item-title">Five Ingredient Pasta</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="recipes/tater-tot-hotdish.html">
+                        <img class="item-img" src="images/tater-tot-hotdish.jpg" alt="Tater tot hotdish">
+                        <p class="item-title" href="recipes/tater-tot-hotdish.html">Tater Tot Hotdish</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         <p>The Odin Project - Lucas Hogg 2023</p>
     </footer>
 </body>
