@@ -1,9 +1,10 @@
 /* Global */
-
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(26, 26, 26);
     color: rgb(205, 225, 229);
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -22,6 +23,27 @@ p {
 
 .header {
     text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    border-bottom: 3px solid rgb(33, 32, 32);
+}
+
+.header-link {
+    font-weight: bold;
+}
+
+.nav-list {
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    padding-left: 18px;
 }
 
 .main {
@@ -84,14 +106,15 @@ p {
 
 .col {
     padding: 20px;
+    flex: 1;
 }
 
 .description {
-    width: 75%;
+    flex: 2;
 }
 
 .instructions {
-    width: 50%;
+    flex: 1;
 }
 
 h2 {
