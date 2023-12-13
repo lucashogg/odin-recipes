@@ -32,6 +32,14 @@ p {
     border-bottom: 3px solid rgb(33, 32, 32);
 }
 
+.nav-left {
+    margin-left: 10px;
+}
+
+.nav-right {
+    margin-right: 10px;
+}
+
 .header-link {
     font-weight: bold;
 }
