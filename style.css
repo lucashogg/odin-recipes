@@ -17,41 +17,13 @@ a:hover {
     transition: .1s;
 }
 
-p {
-    line-height: 20px;
+p,
+li {
+    line-height: 1.6rem;
 }
 
 .header {
     text-align: center;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 0px;
-    border-bottom: 3px solid rgb(33, 32, 32);
-}
-
-.nav-left {
-    margin-left: 10px;
-}
-
-.nav-right {
-    margin-right: 10px;
-}
-
-.header-link {
-    font-weight: bold;
-}
-
-.nav-list {
-    margin: 0;
-    display: flex;
-}
-
-.navbar li {
-    list-style: none;
-    padding-left: 18px;
 }
 
 .main {
@@ -106,6 +78,35 @@ p {
 }
 
 /* Recipes */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    border-bottom: 3px solid rgb(33, 32, 32);
+}
+
+.nav-left {
+    margin-left: 10px;
+}
+
+.nav-right {
+    margin-right: 10px;
+}
+
+.header-link {
+    font-weight: bold;
+}
+
+.nav-list {
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    padding-left: 18px;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -132,10 +133,6 @@ h2 {
 .recipe-img {
     width: 100%;
     max-width: 400px;
-}
-
-li {
-    line-height: 25px;
 }
 
 .mt {
